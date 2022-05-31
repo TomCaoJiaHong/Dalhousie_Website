@@ -37,3 +37,23 @@ ul{
     background-color: rgb(238, 238, 238);
     padding: 1% 0%;
 }
+
+
+#primary-nav ul{
+    list-style-type: none;
+}
+
+#primary-nav a{
+    color: gray;
+    text-decoration: none;
+}
+
+#primary-nav a:hover{
+    color: #F2AC00;
+}
+
+#pg-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
