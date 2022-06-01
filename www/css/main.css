@@ -57,3 +57,22 @@ ul{
     flex-direction: row;
     justify-content: space-between;
 }
+
+form{
+    flex: 0 1 20%;
+}
+
+#content{
+    padding: 1% 5% 2% 2%;
+}
+
+h3{
+    color: #F2AC00;
+    text-transform: uppercase;
+    padding: 1% 0%;
+    font-weight: bold;
+}
+
+a:link{
+    text-decoration: none;
+}
