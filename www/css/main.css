@@ -76,3 +76,26 @@ h3{
 a:link{
     text-decoration: none;
 }
+
+#grading ul{
+    padding-left: 5%;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+/**
+I study the meterial from this website
+Arthur: W3schools
+URL: https://www.w3schools.com/css/css3_flexbox_responsive.asp
+Date accessed: 13 Nov 2021
+*/
+
+@media (min-width: 1000px){
+    main{
+        background-image: url("../img/dalfcs.jpg");
+	    background-repeat: no-repeat;
+	background-size: 100%;
+    }
+}
