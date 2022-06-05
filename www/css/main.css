@@ -122,4 +122,31 @@ Date accessed: 13 Nov 2021
     h1 a:hover{
         color: #F2AC00;
     }
+
+    #secondary-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: smaller;
+    }
+
+    #secondary-nav ul li{
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    #pg-banner #search-form{
+        display: flex;
+        flex-direction: row;
+        padding-right: 15px;
+        height: min-content;
+        padding-top: 50px;
+    }
+    
+    #primary-nav ul li{
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+    }
 }
