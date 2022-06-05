@@ -98,4 +98,28 @@ Date accessed: 13 Nov 2021
 	    background-repeat: no-repeat;
 	background-size: 100%;
     }
+
+    #content{
+        margin: 0% 10%;
+        background-color: white;
+        margin-top: 10%;
+    }
+
+    h1{
+        width: 400px;
+        padding-left: 15px;
+    }
+    
+    h1 a:link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h1 a:visited{
+        color: black;
+    }
+    
+    h1 a:hover{
+        color: #F2AC00;
+    }
 }
