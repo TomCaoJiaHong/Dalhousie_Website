@@ -149,4 +149,26 @@ Date accessed: 13 Nov 2021
         padding: 10px;
         font-weight: bold;
     }
+
+    #secondary-nav-opener, #primary-nav-opener{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 3% 0% 3% 2%;
+        color: white;
+        font-size: smaller;
+    }
+    
+    footer #footer-nav{
+        width: 600px;
+    }
+    
+    footer a{
+        color: white;
+        padding-right: 20px;
+    }
 }
