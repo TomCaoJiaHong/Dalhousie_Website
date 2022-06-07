@@ -172,3 +172,84 @@ Date accessed: 13 Nov 2021
         padding-right: 20px;
     }
 }
+
+@media (min-width: 1000px){
+    main{
+        background-image: url("../img/dalfcs.jpg");
+	    background-repeat: no-repeat;
+	background-size: 100%;
+    }
+
+    #content{
+        margin: 0% 10%;
+        background-color: white;
+        margin-top: 10%;
+    }
+
+    h1{
+        width: 400px;
+        padding-left: 15px;
+    }
+    
+    h1 a:link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h1 a:visited{
+        color: black;
+    }
+    
+    h1 a:hover{
+        color: #F2AC00;
+    }
+
+    #secondary-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: smaller;
+    }
+
+    #secondary-nav ul li{
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    #pg-banner #search-form{
+        display: flex;
+        flex-direction: row;
+        padding-right: 15px;
+        height: min-content;
+        padding-top: 50px;
+    }
+    
+    #primary-nav ul li{
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    #secondary-nav-opener, #primary-nav-opener{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 3% 0% 3% 2%;
+        color: white;
+        font-size: smaller;
+    }
+    
+    footer #footer-nav{
+        width: 600px;
+    }
+    
+    footer a{
+        color: white;
+        padding-right: 20px;
+    }
+}
