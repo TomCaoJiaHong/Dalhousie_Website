@@ -253,3 +253,94 @@ Date accessed: 13 Nov 2021
         padding-right: 20px;
     }
 }
+
+@media (max-width: 1000px) and (min-width: 840px){
+    #secondary-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: smaller;
+    }
+
+    body{
+        flex-direction: column;
+        margin: 0%;
+        flex-wrap: wrap;
+    }
+
+    h1{
+        width: 400px;
+        padding-left: 15px;
+    }
+    
+    h1 a:link{
+        text-decoration: none;
+        color: white;
+    }
+    
+    h1 a:visited{
+        color: white;
+    }
+
+    header{
+        background-image: url("../img/dalfcs.jpg"); 
+    }
+
+    #secondary-nav ul li{
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    #primary-nav ul li{
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    #pg-banner #search-form{
+        display: flex;
+        flex-direction: row;
+        padding-right: 15px;
+        height: min-content;
+        padding-top: 50px;
+    }
+
+    #content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5% 10%;
+    }
+
+    #about-course, #grading, #details, #exams, #assignments, #contact{
+        flex: 0 1 48%; 
+    }
+
+    #grading ul{
+        padding-left: 10%;
+    }
+
+    #secondary-nav-opener, #primary-nav-opener{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 3% 0% 3% 2%;
+        color: white;
+        font-size: smaller;
+    }
+    
+    footer #footer-nav{
+        width: 600px;
+    }
+    
+    footer a{
+        color: white;
+        padding-right: 20px;
+    }
+}
