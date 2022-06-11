@@ -344,3 +344,99 @@ Date accessed: 13 Nov 2021
         padding-right: 20px;
     }
 }
+
+
+@media (max-width: 840px){
+    #secondary-nav-opener{
+        text-align: center;
+        color: white;
+        background-color: gray;
+        padding: 2% 0%;
+        font-weight: bold;
+    }
+
+    #primary-nav-opener{
+        text-align: center;
+        color: black;
+        background-color: rgb(238, 238, 238);
+        padding: 2% 0%;
+        font-weight: bold;
+    }
+
+    #secondary-nav li{
+        font-size: smaller;
+        font-weight: bold;
+        padding: 2% 0%;
+    }
+
+    #primary-nav li{
+        font-size: smaller;
+        font-weight: bold;
+        padding: 2% 0%;
+    }
+
+    body{
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    #content{
+        padding: 5% 10%;
+    }
+
+    h1{
+        width: 400px;
+    }
+    
+    h1 a:link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h1 a:visited{
+        color: black;
+    }
+
+    #pg-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4% 0%;
+    }
+
+    #search-form{
+        padding-top: 3%;
+    }
+
+    #secondary-nav{
+        text-align: center;
+    }
+
+    #primary-nav{
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: black;
+        padding: 3% 0% 3% 2%;
+        color: white;
+        font-size: smaller;
+        text-align: center;
+    }
+    
+    footer a{
+        color: white;
+        padding-bottom: 25px;
+    }
+
+    #footer-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .show{
+        display: none;
+    }
+}
