@@ -5,12 +5,19 @@ This project is a replica of a single page from the official website of Dalhousi
 ## **Project Structure**
 The project structure is organized as follows:
 `├── index.html`
+
 `├── css`
+
 `│   └── main.css`
+
 `│   └── normalize.css`
+
 `├── js`
+
 `│   └── script.js`
+
 `└── img`
+
     `└── dalfcs.jpg`
 
     
