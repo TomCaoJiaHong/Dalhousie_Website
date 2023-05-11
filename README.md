@@ -3,7 +3,7 @@ This project is a replica of a single page from the official website of Dalhousi
 
 
 ## **Arthur Information**
-Name: Jiahong Cao
+Name: Jiahong Cao  
 Email: Jiahong.Cao@dal.ca
 
 ## **Project Structure**
