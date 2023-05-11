@@ -17,4 +17,3 @@ The project structure is organized as follows:
 └── img
     └── dalfcs.jpg
     
-
